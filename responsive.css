@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100vw;
+   background-color: rgb(205, 200, 110);
+}
+.mainbody{
+    width: 35%;
+    height: 45%;
+    background-color: rgb(234, 204, 204);
+    border-radius: 1.3vw;
+}
+.header h2{
+    margin-left: 8%;
+    margin-top: 3%;
+    font-size: 1.9vw;
+}
+.enteramount p{
+    margin-left: 8%;
+    margin-top: 2.5%;
+    font-size: 1.4vw;
+}
+.form1{
+    height:82%;
+}
+.form1 input{
+    border: none;
+    width: 90%;
+    height: 3.5vh;
+    margin-left: 8%;
+    margin-top: 1vh;
+    border-radius: 1vw;
+    padding-left: 2%;
+    font-size: 1.3vw; 
+}
+.selectcontainer{
+    height: 15vh;
+    margin-left: 8%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.selectcontainer p {
+    font-size: 2vh;
+}
+.selectcontainer i{
+    height: 4vh;
+}
+.selectcontainer select,button{
+    width: 100%;
+    border: none;
+    border-radius: 1vw;
+}
+.from img{
+    height: 7vh;
+    width: 4vw;
+}
+.to img{
+    height: 7vh;
+    width: 4vw;
+}
+.from{
+    width: 30%;
+    height: 90%;
+}
+.to{
+    width: 30%;
+    height: 90%;
+}
+.from select{
+    height: 2.5vh;
+    width: 8vw;
+    font-size: 1.8vh;
+}
+.to select{
+    height: 2.5vh;
+    width: 8vw;
+    font-size: 1.8vh;
+}
+#icon{
+    font-size: 2.7vh;
+}
+.button1{
+    width: 75%;
+    height: 3vh;
+    font-size: 1.9vh;
+    margin-left: 10%;
+    margin-top: 4vh;
+}
+.select1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black; 
+    border-radius: 1rem;
+}
+
+select {
+    background-color: transparent;
+    border-radius: 0; 
+}
+.output{
+    width: 30rem;
+    height: 4rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+
+    
+}
+.outputvalue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
